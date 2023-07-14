@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>入力した文字を数える</title>
+    <title>チェックを入れるとボタンが押せるよ</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <link rel="stylesheet" href="css/index.css">
     <script src="js/index.js" defer></script>
 </head>
 <body>
-    <textarea id="text"></textarea>
-    <p>100文字以内で入力してください</p>
-    <p>現在<span id="count">0</span></p>
+<label>
+    <input type="checkbox" id="check">利用規約に同意する
+</label>
+<input id="btn" type="submit" value="送信する" disabled>
 </body>
 </html>
