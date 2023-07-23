@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+h1#heading_change_width {
+    color: #fff;
+    display: inline-block;
+    background-image: linear-gradient(90deg, #0bd, #0bd 50%, #fff 50%, #fff);
+    background-size: 200% 100%;
+    padding: .5rem 1rem;
+}
+
+h1#heading_huyohuyo {
+    background: #0bd;
+    color: #fff;
+    display: inline-block;
+    padding: 6rem 3rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
