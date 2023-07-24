@@ -183,6 +183,9 @@ SLIDE MENU
     text-decoration: none;
     font-size: 2rem;
 }
+.fadein {
+    opacity: 0;
+}
 /*
 GALLERY
 ================================================ */
