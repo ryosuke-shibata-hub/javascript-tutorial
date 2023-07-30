@@ -1,7 +1,16 @@
+"use strict";
+
 $(function () {
     const $preview = $(".preview");
 
+    const renderer = new marked.Renderer();
+
+    renderer.link = (href, title, text) => {
+        return `<a href="${href}" target="_blank">${text}</a>`
+    }
+
     marked.setOptions({
+        renderer: renderer,
         breaks: true,
         sanitize: true,
         heighlight: (code) => {
